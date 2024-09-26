@@ -1,11 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currículum de Tania Cantero</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .left-column {
+            width: 30%;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .right-column {
+            width: 70%;
+            padding: 20px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .left-column p, .right-column p {
+            margin: 10px 0;
+        }
+        .contact-info, .skills, .languages, .projects, .volunteer {
+            margin-bottom: 20px;
+        }
+        .skills ul, .languages ul, .projects ul, .volunteer ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills ul li, .languages ul li, .projects ul li, .volunteer ul li {
+            margin: 5px 0;
+        }
+        .experience, .education {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hola Mundooo</h1>
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <img src="/tan.img.jpeg" alt="Tania Cantero">
+            <h1>Tania Cantero</h1>
+            <h3>Recursos Humanos | Contabilidad</h3>
+
+            <div class="contact-info">
+                <h2>Contacto</h2>
+                <p><strong>Email:</strong> taniacanterabriz@gmail.com</p>
+                <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                <p><strong>LinkedIn:</strong> tania-cantero</p>
+            </div>
+
+            <div class="skills">
+                <h2>Conocimientos</h2>
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>Power BI</li>
+                    <li>Visual Office</li>
+                    <li>WORD OFFICE</li>
+                    <li>TEGOPRINT</li>
+                    <li>Reclutamiento</li>
+                </ul>
+            </div>
+
+            <div class="languages">
+                <h2>Idiomas</h2>
+                <ul>
+                    <li>Español</li>
+                    <li>Inglés</li>
+                    <li>Portugués</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+            <div class="objectives">
+                <h2 class="section-title">bjetivos</h2>
+                <p>Estoy en busca de desafíos que me permitan expandir mi carrera profesional, complementando y alineando mis acciones con la visión y misión de la organización.</p>
+                <p>Aspiro a ser un agente de cambio positivo, facilitando el desarrollo personal y profesional de los colaboradores.</p>
+            </div>
+
+            <div class="experience">
+                <h2 class="section-title">Experiencia Laboral</h2>
+                <p><strong>Encargada de Recursos Humanos</strong> - POLIPLASTICA S.A. (2022 - Actualidad)</p>
+                <ul>
+                    <li>Reclutamiento y selección.</li>
+                    <li>Realización de entrevistas.</li>
+                    <li>Inducción del personal.</li>
+                    <li>Administración de documentos.</li>
+                </ul>
+                
+                <p><strong>Consultor Interno de Recursos Humanos</strong> - AGROFERTIL S.A. (2021 - 2022)</p>
+                <ul>
+                    <li>Reclutamiento y selección.</li>
+                    <li>Inducción de nuevos empleados.</li>
+                </ul>
+                
+                <p><strong>Supervisora de Recursos Humanos</strong> - FADEL - CRYVEPAR S.A. (2019 - 2021)</p>
+                <ul>
+                    <li>Reclutamiento y selección.</li>
+                    <li>Capacitación de personal.</li>
+                </ul>
+            </div>
+
+            <div class="education">
+                <h2 class="section-title">Formación Académica</h2>
+                <p><strong>Especialización en Impuestos</strong> - Técnica Contable (Actualmente)</p>
+                <p><strong>Lic. en Ciencias Contables</strong> - Universidad Autónoma del Sur (2016 - 2022)</p>
+            </div>
+
+            <div class="projects">
+                <h2 class="section-title">Proyectos</h2>
+                <ul>
+                    <li>UniGestión E.A.S</li>
+                </ul>
+            </div>
+
+            <div class="volunteer">
+                <h2 class="section-title">Voluntariado</h2>
+                <ul>
+                    <li>Transformación Paraguay</li>
+                </ul>
+            </div>
+
+            <div class="certifications">
+                <h2 class="section-title">Capacitaciones</h2>
+                <ul>
+                    <li>Legislación Laboral - Vitabar</li>
+                    <li>Gestión de Recursos Humanos - Cebane</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
